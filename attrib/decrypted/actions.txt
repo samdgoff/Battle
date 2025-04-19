@@ -1,0 +1,1220 @@
+#
+1 - name
+2 - argument 1
+3 - argument 2
+4 - miss chance
+5 - action type
+	0 - idle
+	1 - attack
+	2 - health replenish
+	3 - magic replenish
+	4 - magic shield
+	5 - magic attack
+	6 - magic heal
+	7 - magic heal (to all)
+	8 - magic shield (to all)
+6 - use text
+7 - next move
+8 - argument 3
+9 - help text
+#
+
+$0<
+(1}Name{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} does a thing!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$0>
+
+$1<
+(1}Bash{1)
+(2}3{2)
+(3}3{3)
+(4}0{4)
+(5}1{5)
+(6} bashes with their bat!{6)
+(7}0{7)
+(8}0{8)
+(9}Do a single swing with your trusty baseball bat. Does 3 HP of damage every time!{9)
+$1>
+
+$2<
+(1}Super Swing{1)
+(2}4{2)
+(3}6{3)
+(4}50{4)
+(5}1{5)
+(6} does a super swing!{6)
+(7}0{7)
+(8}0{8)
+(9}Try your luck with a super swing. Misses 50% of the time, but can do up to 6 HP of damage!{9)
+$2>
+
+$3<
+(1}Eat Bread{1)
+(2}3{2)
+(3}3{3)
+(4}0{4)
+(5}2{5)
+(6} eats a loaf of bread!{6)
+(7}0{7)
+(8}0{8)
+(9}Chow down on a soft, floury loaf to regain 3 HP.{9)
+$3>
+
+$4<
+(1}Drink Life Potion{1)
+(2}0{2)
+(3}10{3)
+(4}0{4)
+(5}2{5)
+(6} drinks a life potion!{6)
+(7}0{7)
+(8}0{8)
+(9}Down a vial of the unpredictable life potion. Gain from 0 HP (what?) to 10 HP in one go!{9)
+$4>
+
+$5<
+(1}Pick Nose{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is picking its nose!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$5>
+
+$6<
+(1}Claw{1)
+(2}1{2)
+(3}3{3)
+(4}25{4)
+(5}1{5)
+(6} brandishes its claws!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$6>
+
+$7<
+(1}Shotgun{1)
+(2}3{2)
+(3}7{3)
+(4}50{4)
+(5}1{5)
+(6} shoots his shotgun!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$7>
+
+$8<
+(1}Reload{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is reloading!{6)
+(7}7{7)
+(8}0{8)
+(9}null{9)
+$8>
+
+$9<
+(1}Polish Shotgun{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is polishing his shotgun!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$9>
+
+$10<
+(1}Bite{1)
+(2}3{2)
+(3}5{3)
+(4}0{4)
+(5}1{5)
+(6} takes a big bite!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$10>
+
+$11<
+(1}Rev{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is revving up!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$11>
+
+$12<
+(1}Bike Charge{1)
+(2}5{2)
+(3}9{3)
+(4}50{4)
+(5}1{5)
+(6} charges at full throttle!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$12>
+
+$13<
+(1}Stomp{1)
+(2}1{2)
+(3}9{3)
+(4}50{4)
+(5}1{5)
+(6} stomps the ground!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$13>
+
+$14<
+(1}Eat Trunk{1)
+(2}0{2)
+(3}5{3)
+(4}0{4)
+(5}2{5)
+(6} eats its own trunk!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$14>
+
+$15<
+(1}Bellow{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} bellows in anger!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$15>
+
+$16<
+(1}Club{1)
+(2}7{2)
+(3}9{3)
+(4}75{4)
+(5}1{5)
+(6} swings its club!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$16>
+
+$17<
+(1}Eat Bogey{1)
+(2}1{2)
+(3}3{3)
+(4}0{4)
+(5}2{5)
+(6} eats a bogey!{6)
+(7}5{7)
+(8}0{8)
+(9}null{9)
+$17>
+
+$18<
+(1}Look Around{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} looks around!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$18>
+
+$19<
+(1}Ant Spew{1)
+(2}1{2)
+(3}9{3)
+(4}50{4)
+(5}1{5)
+(6} spews ants everywhere!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$19>
+
+$20<
+(1}Eat Larvae{1)
+(2}5{2)
+(3}5{3)
+(4}0{4)
+(5}2{5)
+(6} eats a large portion of larvae!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$20>
+
+$21<
+(1}Queen Toss{1)
+(2}4{2)
+(3}4{3)
+(4}0{4)
+(5}1{5)
+(6} launches the queen ant!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$21>
+
+$22<
+(1}Lead Tears{1)
+(2}6{2)
+(3}6{3)
+(4}60{4)
+(5}1{5)
+(6} starts crying tears of lead!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$22>
+
+$23<
+(1}Laser Eyes{1)
+(2}3{2)
+(3}5{3)
+(4}25{4)
+(5}1{5)
+(6} fires lasers from its eyes!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$23>
+
+$24<
+(1}Recharge{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is recharging!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$24>
+
+$25<
+(1}Super Recharge{1)
+(2}5{2)
+(3}8{3)
+(4}0{4)
+(5}2{5)
+(6} is doing a super recharge!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$25>
+
+$26<
+(1}Dummy Spit{1)
+(2}20{2)
+(3}20{3)
+(4}90{4)
+(5}1{5)
+(6} spits out its aluminium dummy!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$26>
+
+$27<
+(1}Suck{1)
+(2}1{2)
+(3}2{3)
+(4}0{4)
+(5}1{5)
+(6} keeps on sucking!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$27>
+
+$28<
+(1}Slice{1)
+(2}2{2)
+(3}4{3)
+(4}0{4)
+(5}1{5)
+(6} slices through the air!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$28>
+
+$29<
+(1}Heavy Chop{1)
+(2}4{2)
+(3}6{3)
+(4}50{4)
+(5}1{5)
+(6} chops with their katana!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$29>
+
+$30<
+(1}Stealth Kick{1)
+(2}3{2)
+(3}3{3)
+(4}0{4)
+(5}1{5)
+(6} kicks from behind!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$30>
+
+$31<
+(1}Magic Heal{1)
+(2}3{2)
+(3}5{3)
+(4}0{4)
+(5}2{5)
+(6} casts a spell to heal themselves!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$31>
+
+$32<
+(1}Trump 1{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} makes America great again!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$32>
+
+$33<
+(1}Trump 2{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} builds a wall!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$33>
+
+$34<
+(1}Trump 3{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} says it's FAKE NEWS!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$34>
+
+$35<
+(1}Trump 4{1)
+(2}1{2)
+(3}1{3)
+(4}0{4)
+(5}2{5)
+(6} gets a small loan of a million dollars!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$35>
+
+$36<
+(1}Trump Hitman{1)
+(2}1{2)
+(3}9{3)
+(4}70{4)
+(5}1{5)
+(6} shoots at you!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$36>
+
+$37<
+(1}Trump 6{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} abolishes being any race but orange!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$37>
+
+$38<
+(1}Runic Shield ~a{1)
+(2}5{2)
+(3}5{3)
+(4}0{4)
+(5}4{5)
+(6} tries to conjure up a shield!{6)
+(7}0{7)
+(8}0{8)
+(9}Use 5 MP to make a magical shield appear. It will deflect attacks until it has withstood 5 HP of damage!{9)
+$38>
+
+$39<
+(1}Runic Shield ~b{1)
+(2}10{2)
+(3}10{3)
+(4}0{4)
+(5}4{5)
+(6} summons all of their might to form a shield!{6)
+(7}0{7)
+(8}0{8)
+(9}Make a tough runic shield appear by using up 10 MP. This deflects attacks for a while before it breaks after 10 HP of damage!{9)
+$39>
+
+$40<
+(1}Drink Elixir{1)
+(2}2{2)
+(3}4{3)
+(4}0{4)
+(5}3{5)
+(6} drinks an elixir!{6)
+(7}0{7)
+(8}0{8)
+(9}Drink a vial of magical elixir to replenish from 2 to 4 MP. This action is crucial if you want to do magic!{9)
+$40>
+
+$41<
+(1}Pick Nose 2{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is picking its nose!{6)
+(7}17{7)
+(8}0{8)
+(9}null{9)
+$41>
+
+$42<
+(1}Space Time Rip{1)
+(2}6{2)
+(3}9{3)
+(4}0{4)
+(5}1{5)
+(6} causes a rip in the space-time continuum!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$42>
+
+$43<
+(1}Body Regenerate{1)
+(2}2{2)
+(3}4{3)
+(4}0{4)
+(5}2{5)
+(6} regenerates part of its body!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$43>
+
+$44<
+(1}Parallel Universe{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} slips into a parallel universe!{6)
+(7}47{7)
+(8}0{8)
+(9}null{9)
+$44>
+
+$45<
+(1}Time Shield{1)
+(2}6{2)
+(3}0{3)
+(4}0{4)
+(5}4{5)
+(6} bends time in order to form a shield!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$45>
+
+$46<
+(1}Parallel Comeback{1)
+(2}2{2)
+(3}4{3)
+(4}0{4)
+(5}1{5)
+(6} suddenly appears through a rift!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$46>
+
+$47<
+(1}Nowhere 1{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} is both here and not here!{6)
+(7}46{7)
+(8}0{8)
+(9}null{9)
+$47>
+
+$48<
+(1}Vanity{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} told you that he was invincible!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$48>
+
+$49<
+(1}Envy{1)
+(2}3{2)
+(3}5{3)
+(4}0{4)
+(5}1{5)
+(6} was envious of your health points!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$49>
+
+$49<
+(1}Gluttony{1)
+(2}3{2)
+(3}5{3)
+(4}0{4)
+(5}2{5)
+(6} ate more than he should have!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$49>
+
+$50<
+(1}Lust{1)
+(2}1{2)
+(3}1{3)
+(4}0{4)
+(5}1{5)
+(6} did something inappropriate!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$50>
+
+$51<
+(1}Wrath{1)
+(2}7{2)
+(3}9{3)
+(4}0{4)
+(5}1{5)
+(6} harnessed his anger!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$51>
+
+$52<
+(1}Greed{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} wants more!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$52>
+
+$53<
+(1}Sloth{1)
+(2}10{2)
+(3}0{3)
+(4}0{4)
+(5}4{5)
+(6} was too lazy to fight so he put up a shield!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$53>
+
+$54<
+(1}Water Gun{1)
+(2}2{2)
+(3}5{3)
+(4}20{4)
+(5}1{5)
+(6} uses Water Gun!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$54>
+
+$55<
+(1}Psyshock{1)
+(2}1{2)
+(3}4{3)
+(4}30{4)
+(5}1{5)
+(6} uses Psyshock!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$55>
+
+$56<
+(1}Psychic{1)
+(2}7{2)
+(3}9{3)
+(4}50{4)
+(5}1{5)
+(6} uses Psychic!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$56>
+
+$57<
+(1}Snore{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} uses Snore!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$57>
+
+$58<
+(1}Rest{1)
+(2}3{2)
+(3}5{3)
+(4}0{4)
+(5}2{5)
+(6} uses Rest!{6)
+(7}57{7)
+(8}0{8)
+(9}null{9)
+$58>
+
+$59<
+(1}Brace Bite{1)
+(2}5{2)
+(3}8{3)
+(4}40{4)
+(5}1{5)
+(6} leans forward and does a steel-tipped bite with his braces!{6)
+(7}61{7)
+(8}0{8)
+(9}null{9)
+$59>
+
+$60<
+(1}Glasses Blast{1)
+(2}5{2)
+(3}8{3)
+(4}15{4)
+(5}1{5)
+(6} harnesses the power of the sun in his glasses to deliver a scalding laser blast!{6)
+(7}61{7)
+(8}0{8)
+(9}null{9)
+$60>
+
+$61<
+(1}Dismayed Look{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} looks at you in dismay!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$61>
+
+$62<
+(1}Battenberg{1)
+(2}2{2)
+(3}4{3)
+(4}0{4)
+(5}2{5)
+(6} eats a battenberg!{6)
+(7}61{7)
+(8}0{8)
+(9}null{9)
+$62>
+
+$63<
+(1}Check Discord{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} checks his discord!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$63>
+
+$64<
+(1}Play osu!{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} plays some osu!!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$64>
+
+$65<
+(1}CS:GO Start 1{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} starts a game of CS:GO!{6)
+(7}66{7)
+(8}0{8)
+(9}null{9)
+$65>
+
+$66<
+(1}CS:GO Die{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} gets killed!{6)
+(7}67{7)
+(8}0{8)
+(9}null{9)
+$66>
+
+$67<
+(1}CS:GO Ragequit{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} ragequits!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$67>
+
+$68<
+(1}CS:GO Start 2{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} starts a game of CS:GO!{6)
+(7}69{7)
+(8}0{8)
+(9}null{9)
+$68>
+
+$69<
+(1}CS:GO Bomb Plant{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} plants the bomb!{6)
+(7}70{7)
+(8}0{8)
+(9}null{9)
+$69>
+
+$70<
+(1}CS:GO Win{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} wins the game!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$70>
+
+$71<
+(1}Ant Squeak{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} squeaks with triumph!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$71>
+
+$72<
+(1}Ant Bite{1)
+(2}1{2)
+(3}1{3)
+(4}20{4)
+(5}1{5)
+(6} bites with its mandibles!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$72>
+
+$73<
+(1}Magic Shield{1)
+(2}5{2)
+(3}5{3)
+(4}0{4)
+(5}4{5)
+(6} tries to make a shield appear!{6)
+(7}0{7)
+(8}0{8)
+(9}Make a magic shield from your supply of magic that will deflect attacks until it has been damaged by 5 HP.{9)
+$73>
+
+$74<
+(1}Stinging Beam ~a{1)
+(2}2{2)
+(3}4{3)
+(4}10{4)
+(5}5{5)
+(6} creates a stinging beam!{6)
+(7}0{7)
+(8}3{8)
+(9}Make a beam that will burn 2 to 4 HP off an enemy's health.{9)
+$74>
+
+$75<
+(1}Stinging Beam ~b{1)
+(2}5{2)
+(3}7{3)
+(4}10{4)
+(5}5{5)
+(6} creates an intensely stinging beam!{6)
+(7}0{7)
+(8}6{8)
+(9}Create a beam that will melt 5 to 7 HP off an enemy's health.{9)
+$75>
+
+$76<
+(1}Stinging Beam ~g{1)
+(2}8{2)
+(3}10{3)
+(4}10{4)
+(5}5{5)
+(6} creates a fiercely stinging beam!{6)
+(7}0{7)
+(8}10{8)
+(9}Erect a beam that will scorch 8 to 10 HP off an enemy's health! Wow!{9)
+$76>
+
+$77<
+(1}Healing Chant ~a{1)
+(2}5{2)
+(3}5{3)
+(4}0{4)
+(5}6{5)
+(6} chants to heal a small amount of health!{6)
+(7}0{7)
+(8}5{8)
+(9}Do a chant to recover 5 HP.{9)
+$77>
+
+$78<
+(1}Healing Chant ~b{1)
+(2}10{2)
+(3}10{3)
+(4}0{4)
+(5}6{5)
+(6} chants to heal a large amount of health!{6)
+(7}0{7)
+(8}10{8)
+(9}Do a chant to recover 10 HP.{9)
+$78>
+
+$79<
+(1}Healing Chant ~g{1)
+(2}10{2)
+(3}10{3)
+(4}0{4)
+(5}7{5)
+(6} chants to heal everyone's health!{6)
+(7}0{7)
+(8}15{8)
+(9}Do a chant to recover everyone's HP by 10! Cool!{9)
+$79>
+
+$80<
+(1}Runic Shield ~g{1)
+(2}10{2)
+(3}15{3)
+(4}0{4)
+(5}8{5)
+(6} drains their magic to form a shield for everyone!{6)
+(7}0{7)
+(8}15{8)
+(9}Protect everyone with a magic shield each! They both deflect attacks for a while before they break after 10 HP of damage!{9)
+$80>
+
+$81<
+(1}Dark Power ~o{1)
+(2}15{2)
+(3}20{3)
+(4}0{4)
+(5}5{5)
+(6} corrupts the fabric of the universe!{6)
+(7}0{7)
+(8}20{8)
+(9}Corrupt the very fabric of the universe to rip a whopping 15 HP off an enemy's health! Amazing!{9)
+$81>
+
+$82<
+(1}Mad Croak{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} croaks madly!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$82>
+
+$83<
+(1}Poison Spit{1)
+(2}2{2)
+(3}6{3)
+(4}30{4)
+(5}1{5)
+(6} spits out some poison!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$83>
+
+$84<
+(1}Jump Smack{1)
+(2}6{2)
+(3}7{3)
+(4}50{4)
+(5}1{5)
+(6} jumps really high and does a hearty smack!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$84>
+
+$85<
+(1}Eat Fly{1)
+(2}1{2)
+(3}3{3)
+(4}0{4)
+(5}2{5)
+(6} eats a passing fly!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$85>
+
+$86<
+(1}Evil Grin{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} grins evilly at you!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$86>
+
+$87<
+(1}Bullfrog Bite{1)
+(2}5{2)
+(3}9{3)
+(4}35{4)
+(5}1{5)
+(6} does a big Bullfrog Bite!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$87>
+
+$88<
+(1}Bee Blast{1)
+(2}6{2)
+(3}8{3)
+(4}50{4)
+(5}1{5)
+(6} shoots a swarm of bees down at you!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$88>
+
+$89<
+(1}Queen Torpedo{1)
+(2}1{2)
+(3}5{3)
+(4}10{4)
+(5}1{5)
+(6} hurls a queen torpedo down at you!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$89>
+
+$90<
+(1}Eat Robot Honey{1)
+(2}3{2)
+(3}6{3)
+(4}0{4)
+(5}2{5)
+(6} takes a scoop of robotic honey!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$90>
+
+$91<
+(1}Locate 1{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} locates its target!{6)
+(7}92{7)
+(8}0{8)
+(9}null{9)
+$91>
+
+$92<
+(1}Lock On{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} locks on!{6)
+(7}93{7)
+(8}0{8)
+(9}null{9)
+$92>
+
+$93<
+(1}B.E.E. Laser{1)
+(2}1{2)
+(3}9{3)
+(4}0{4)
+(5}1{5)
+(6} shoots the B.E.E. laser bee-m down at you!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$93>
+
+$94<
+(1}Locate 2{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} locates its target!{6)
+(7}95{7)
+(8}0{8)
+(9}null{9)
+$94>
+
+$95<
+(1}Lock On Fail{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} fails to lock on!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$95>
+
+$96<
+(1}Stinger Laser{1)
+(2}1{2)
+(3}1{3)
+(4}35{4)
+(5}1{5)
+(6} fires its stinger laser!{6)
+(7}97{7)
+(8}0{8)
+(9}null{9)
+$96>
+
+$97<
+(1}Stinger Laser Regrow{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} regrows its stinger laser!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$97>
+
+$98<
+(1}Metallic Buzz{1)
+(2}0{2)
+(3}0{3)
+(4}0{4)
+(5}0{5)
+(6} buzzes metallically!{6)
+(7}0{7)
+(8}0{8)
+(9}null{9)
+$98>

@@ -1,0 +1,229 @@
+#
+1 - name
+2 - encounter text
+3 - health
+4 - action list
+5 - death text
+6 - 0 = random, 1 = in order
+7 - filename
+#
+
+$1<
+(1}Groblin{1)
+(2}~n crawls out of the gloom!{2)
+(3}20{3)
+(4}5,6{4)
+(5}~n's head exploded into a pile of brains!{5)
+(6}0{6)
+(7}groblin{7)
+$1>
+
+$2<
+(1}Angry Ol' Guy{1)
+(2}~n storms in!{2)
+(3}25{3)
+(4}9,8{4)
+(5}~n crumpled into a heap!{5)
+(6}0{6)
+(7}angryolguy{7)
+$2>
+
+$3<
+(1}Zoombie{1)
+(2}~n skids to a halt!{2)
+(3}30{3)
+(4}10,11,12{4)
+(5}~n fell off its bike!{5)
+(6}0{6)
+(7}zoombie{7)
+$3>
+
+$4<
+(1}Undead Elephant{1)
+(2}~n lumbers in!{2)
+(3}35{3)
+(4}13,14,15,15{4)
+(5}~n crumbles into a pile of bones!{5)
+(6}0{6)
+(7}undeadelephant{7)
+$4>
+
+$5<
+(1}Waboblin{1)
+(2}~n wanders forward!{2)
+(3}35{3)
+(4}41,18,15,16{4)
+(5}~n's head explodes, and there's nothing inside!{5)
+(6}0{6)
+(7}waboblin{7)
+$5>
+
+$6<
+(1}Sentient Ant Hill{1)
+(2}~n erupts out of the ground!{2)
+(3}40{3)
+(4}19,19,20,21,21{4)
+(5}~n explodes and ant remains go flying!{5)
+(6}0{6)
+(7}sentientanthill{7)
+$6>
+
+$7<
+(1}RoboBaby MKII{1)
+(2}~n powers on!{2)
+(3}25{3)
+(4}22,23,24,25,26{4)
+(5}~n's head falls off!{5)
+(6}0{6)
+(7}robobabymkii{7)
+$7>
+
+$8<
+(1}Mr. Leech{1)
+(2}~n clings onto your leg!{2)
+(3}25{3)
+(4}27{4)
+(5}~n falls off!{5)
+(6}1{6)
+(7}mrleech{7)
+$8>
+
+$9<
+(1}RoboBaby's Head{1)
+(2}~n drops from your hands!{2)
+(3}50{3)
+(4}26{4)
+(5}~n explodes into machinery!{5)
+(6}1{6)
+(7}robobabyshead{7)
+$9>
+
+$10<
+(1}Assassin{1)
+(2}~n appears out of nowhere!{2)
+(3}30{3)
+(4}28,29,30,31{4)
+(5}~n disappears in a puff of smoke!{5)
+(6}0{6)
+(7}assassin{7)
+$10>
+
+$11<
+(1}Donald Trump{1)
+(2}~n flies down in a helicopter!{2)
+(3}40{3)
+(4}32,33,34,35,37{4)
+(5}~n gets impeached!{5)
+(6}0{6)
+(7}donaldtrump{7)
+$11>
+
+$12<
+(1}Twisted Magician{1)
+(2}~n creates himself!{2)
+(3}30{3)
+(4}42,43,44,45{4)
+(5}~n melts into a puddle of mercury!{5)
+(6}0{6)
+(7}twistedmagician{7)
+$12>
+
+$13<
+(1}The Lord of Death{1)
+(2}~n erupts from the depths of the underworld!{2)
+(3}45{3)
+(4}48,49,50,51,52,53{4)
+(5}~n implodes into a ball of darkness!{5)
+(6}0{6)
+(7}thelordofdeath{7)
+$13>
+
+$14<
+(1}Slowpoke{1)
+(2}~n challenges you to a battle!{2)
+(3}20{3)
+(4}54,55,56,58{4)
+(5}~n fainted!{5)
+(6}0{6)
+(7}slowpoke{7)
+$14>
+
+$15<
+(1}Joshie{1)
+(2}~n jumps into the battle!{2)
+(3}30{3)
+(4}59,60,62{4)
+(5}~n falls over and is impaled by his braces!{5)
+(6}0{6)
+(7}joshie{7)
+$15>
+
+$16<
+(1}Jack{1)
+(2}~n logs on!{2)
+(3}3{3)
+(4}63,64,65,68{4)
+(5}~n gets deaded!{5)
+(6}0{6)
+(7}jack{7)
+$16>
+
+$17<
+(1}Ant Soldier{1)
+(2}~n scuttles into your face!{2)
+(3}1{3)
+(4}71,72{4)
+(5}~n gets squashed!{5)
+(6}0{6)
+(7}antsoldier{7)
+$17>
+
+$18<
+(1}Bodyguard{1)
+(2}~n protects Mr Trump with their life!{2)
+(3}30{3)
+(4}36{4)
+(5}~n has failed their duty!{5)
+(6}0{6)
+(7}bodyguard{7)
+$18>
+
+$19<
+(1}Crazy Froggie{1)
+(2}~n jumps awkwardly out of the murkiness!{2)
+(3}15{3)
+(4}82,83,84,85{4)
+(5}~n gets splatted!{5)
+(6}0{6)
+(7}crazyfroggie{7)
+$19>
+
+$20<
+(1}Byron Bullfrog{1)
+(2}~n crawls out of the mud!{2)
+(3}40{3)
+(4}85,86,87{4)
+(5}~n falls over back into the mud!{5)
+(6}0{6)
+(7}byronbullfrog{7)
+$20>
+
+$21<
+(1}B.E.E.{1)
+(2}~n slowly buzzes down!{2)
+(3}40{3)
+(4}88,89,90,91,94{4)
+(5}~n explodes into machinery covered in honey!{5)
+(6}0{6)
+(7}b.e.e.{7)
+$21>
+
+$22<
+(1}MechaBee{1)
+(2}~n follows the B.E.E.!{2)
+(3}10{3)
+(4}96,98{4)
+(5}~n stops buzzing!{5)
+(6}0{6)
+(7}mechabee{7)
+$22>

@@ -1,0 +1,110 @@
+#
+For section 1 (misc text):
+	1 - turn text
+	2 - input symbol
+	3 - victory text
+	4 - unusable input text
+	5 - miss text
+	6 - health text
+	7 - miss food? text
+	8 - good thing text
+	9 - game over text
+	10 - enemy miss text
+	11 - enemy miss food? text
+	12 - bad thing text
+	13 - shield success
+	14 - shield fail
+
+For section 2 (status):
+	1 - none
+	2 - shield
+
+For section 3 (menu sections):
+	1 - attack
+	2 - eat
+	3 - magic
+#
+
+$1<
+(1}'s turn!{1)
+(2}   > {2)
+(3}
+__  __               _       __            __
+\ \/ /___  __  __   | |     / /___  ____  / /
+ \  / __ \/ / / /   | | /| / / __ \/ __ \/ / 
+ / / /_/ / /_/ /    | |/ |/ / /_/ / / / /_/  
+/_/\____/\__,_/     |__/|__/\____/_/ /_(_)   
+{3)
+(4}Whoops! Try again.{4)
+(5}Oooh... just missed!{5)
+(6}HP: {6)
+(7}Huh? No HP?{7)
+(8}Oh, baby!{8)
+(9}
+   ______                        ____                  __
+  / ____/___ _____ ___  ___     / __ \_   _____  _____/ /
+ / / __/ __ `/ __ `__ \/ _ \   / / / / | / / _ \/ ___/ / 
+/ /_/ / /_/ / / / / / /  __/  / /_/ /| |/ /  __/ /  /_/  
+\____/\__,_/_/ /_/ /_/\___/   \____/ |___/\___/_/  (_)   
+{9)
+(10}Whew... just missed!{10)
+(11}Yes! No HP!{11)
+(12}Darnit!{12)
+(13}Yes! Successful shield!{13)
+(14}Darn! Not enough magic...{14)
+(15}But there is already a shield in place!{15)
+(16}Status: {16)
+(17}MP: {17)
+(18}Drat! Successful shield...{18)
+(19}Wow! You defeated all of the monsters and restored order to the world!
+You just beat the game! How brilliant!
+Now you can live knowing that you have bested the cruel trials of Sam's Amazing Battle Game!{19)
+(20}Welcome to Sam's Amazing Battle Game!
+Psych yourself up to battle goblins, zombies, robot babies and even a leech in this heart pounding game.
+If you need any help, simply type "help" whilst in an action menu to be enlightened with all the knowledge you could need.
+Are you ready? Let's go!{20)
+(21}Wait...
+You dirty cheater! You don't deserve to see this!
+I know of a suitable punishment!
+You have to live knowing that you cheated in Sam's Amazing Battle Game!
+Ahahahahahaha!!{21)
+(22}To whom?{22)
+(23}Try again? (Y/N){23)
+(24}Starting from last checkpoint...{24)
+(25}A checkpoint has been created! Whew!{25)
+$1>
+
+$2<
+(1}None{1)
+(2}Shielded{2)
+$2>
+
+$3<
+(1}Attack{1)
+(2}Eat{2)
+(3}Heal{3)
+(4}Shield{4)
+$3>
+
+$4<
+(1}As you step out from the forest and into the deep black night, you hear a scuffling sound in a nearby bush. Suddenly,{1)
+(2}Carefully stepping over the Groblin's carcass, you put your foot down onto a twig and *SNAP*, it loudly echoes around the trees. Then, shouting with fury,{2)
+(3}~checkpoint~After killing off the shotgun-wielding menace, you trek for a while through the trees and end up in an abandoned graveyard. In the distance, you hear a revving noise, and then, suddenly,{3)
+(4}You start to set off through the graveyard, but then the Zoombie's corpse starts to move. You can see something moving in the shadows. Suddenly,{4)
+(5}You brush off your hand as you make sure that the dark beasts are well and truly dead. Out of the corner of your eye, you can see something coming out from the trees. Then,{5)
+(6}The Waboblin slumps down onto the ground. Just then, you hear an evil cacophony of snorts and grunts, and suddenly,{6)
+(7}~checkpoint~Satisfied with the deaths of the monsters, you sit down by a small hill in the ground. However,{7)
+(8}You finally come to the conclusion that nowhere is safe, so you keep on guard. But then, for some reason,{8)
+(9}After that odd fight, you head for the gate to the graveyard, since there seems to be so many monsters there. You end up in a swamp, with leeches crawling around everywhere. Then,{9)
+(10}After killing off that annoying leech, you look back into the swamp. Suddenly, out of the swamp water,{10)
+(11}You think to yourself, "I do love killing frogs...". Well lucky you, because then,{11)
+(12}~checkpoint~You think to yourself, "I really hate frogs...", so you run out of the swamp and stumble into an abandoned city. Suddenly,{12)
+(13}After dispatching of the assassin, you hear a loud buzzing noise coming from the sky. Then,{13)
+(14}Some of the robotic honey lands on your arm, so you lick it. Tastes like metal. Then, another loud buzzing sound starts coming from the sky. Suddenly,{14)
+(15}Defeating Donald Trump seems to have made reality fold in on itself, so you find yourself in a state of existing and not existing. To greet you in this dreamlike world,{15)
+(16}~checkpoint~After killing the twisted magician, you are transported back to the real world. You find yourself in a dark room. At the other end, there is a ball. You go over to pick it up, but then...{16)
+(17}You step over the sparking remains of RoboBaby's head. There is a door at the end of the room, which you go through. You end up in another room, with an odd-looking boy. Suddenly,{17)
+(18}~checkpoint~There is another door at the end of the room. You go through it and find yourself in yet another room. In the center, there is another odd-looking boy, with a computer. He looks up. Then,{18)
+(19}At the end of this room is a hole in the wall. You step through it and feel like you aren't inside of your own body. There, in front of you, is something you cannot describe. It says into your mind:
+"Well done, mortal. You have made it a long way. Your quest may have been difficult, but you have pulled through. Now you'll wish you hadn't!"{19)
+$4>
